@@ -13,7 +13,7 @@ int main()
     {
         printf("\nEnter the number of hours hours worked:");
         scanf("%d",&hours);
-        Over_tp = (hours > 40) * 120;
+        Over_tp = (hours - 40) * 120;
         if(hours > 40)
             printf("Your over time pay  is %fcedis\n",Over_tp);
         else
@@ -22,3 +22,4 @@ int main()
     }
     return 0;
 }
+
